@@ -6,10 +6,7 @@
 - [Funcionalidades](#funcionalidades)
 - [Interface](#interface)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Referências](#referências)
-- [Instruções para Clonar e Executar o Projeto](#instruções-para-clonar-e-executar-o-projeto)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
+- [Autor](#autor)
 
 ## Descrição
 Este projeto tem como objetivo demonstrar a validação de CPF e Email utilizando JavaScript. Ele foi desenvolvido como parte de uma atividade em sala de aula e serve como exemplo prático de como aplicar técnicas de validação em formulários web.
@@ -45,10 +42,6 @@ A interface consiste em um formulário onde o usuário pode inserir seu email. A
 - HTML5
 - CSS3
 - JavaScript
-
-## Referências
-- [Validação de CPF](https://www.devmedia.com.br/validar-cpf-com-javascript/23916)
-- [Validação de Email](https://www.w3schools.com/js/js_validation.asp)
 
 ## Autor
 - João Pedro Gonçalves
