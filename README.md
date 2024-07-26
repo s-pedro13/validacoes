@@ -39,12 +39,12 @@ A interface consiste em um formulário onde o usuário pode inserir seu email. A
 
 ## Documentação JavaScript
 
-## Validação de CPF
+### Validação de CPF
 
-## Estrutura Básica
+### Estrutura Básica
 No arquivo `cpf.js`, adicionamos um escutador de eventos ao formulário para interceptar a submissão, prevenindo o envio padrão e realizando a validação do CPF inserido.
 
-## Função de Validação
+### Função de Validação
 A função `validarCPF(cpf)` realiza a validação do CPF em várias etapas:
 - **Remover caracteres não numéricos**: `cpf.replace(/[^\d]+/g, '')`
 - **Verificar se o CPF tem 11 dígitos e se todos os dígitos não são iguais**: `cpf.length !== 11 || /^(\d)\1{10}$/.test(cpf)`
@@ -53,15 +53,15 @@ A função `validarCPF(cpf)` realiza a validação do CPF em várias etapas:
 - **Calcular o segundo dígito verificador**: Iteração de 1 a 10, multiplicando os dígitos por valores decrescentes de 11 a 2, somando e calculando o resto da divisão por 11.
 - **Comparar o segundo dígito verificador**: `if(resto !== parseInt(cpf.substring(10, 11))) return false`
 
-## Atualizando o DOM
+### Atualizando o DOM
 - **Exibir mensagem de validação**: `msg.textContent = 'O CPF é válido!'; msg.style.color = 'green';`
 
-## Validação de Email
+### Validação de Email
 
-## Estrutura Básica
+### Estrutura Básica
 No arquivo `email.js`, a função `checarEmail()` é chamada quando o campo de email perde o foco.
 
-## Função de Validação
+### Função de Validação
 A função `checarEmail()` realiza a validação básica do email:
 - **Obter o valor do campo de email**: `const email = document.forms[0].email.value`
 - **Verificar se o campo está vazio ou se não contém os caracteres essenciais**: `if (email === "" || email.indexOf('@') === -1 || email.indexOf('.') === -1)`
