@@ -1,0 +1,62 @@
+body {
+   background: linear-gradient(to bottom, #E6E6FA, #98FB98); /* Gradiente de roxo pastel para verde pastel */
+   font-family: Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+}
+
+h1 {
+   color: #333;
+   margin-bottom: 20px;
+}
+
+form {
+   background-color: #f5f5f5; /* Cor neutra */
+   border: 1px solid #ddd;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; /* Alinha os itens à esquerda */
+   width: 300px;
+}
+
+label {
+   display: block;
+   margin-bottom: 10px;
+   color: #555;
+}
+
+input[type="text"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   margin-bottom: 10px;
+   box-sizing: border-box; /* Garante que padding seja incluído na largura total */
+}
+
+input[type="submit"] {
+   background-color: #9370DB; /* Roxo pastel */
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   align-self: flex-start; /* Alinha o botão à esquerda */
+}
+
+input[type="submit"]:hover {
+   background-color: #7A67EE; /* Roxo pastel mais escuro */
+}
+
+p {
+   margin-top: 20px;
+   font-size: 18px;
+   align-self: flex-start; /* Alinha a mensagem à esquerda */
+}
