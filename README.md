@@ -33,7 +33,7 @@ Cada exemplo está documentado de forma separada, explicando os recursos JavaScr
 
 A interface consiste em um formulário simples onde o usuário pode inserir seu CPF e verificar sua validade. A página exibe uma mensagem com o resultado da validação.
 ### Validação de Email
-![interface](img/validacao-email.com)
+![interface](img/validacao-email.png)
 
 A interface consiste em um formulário onde o usuário pode inserir seu email. Ao perder o foco do campo de entrada, a validação é realizada e o resultado é exibido.
 
